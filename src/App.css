@@ -374,12 +374,5 @@ html, body, #root, .app {
   font-size: 1rem;
   color: #ccc;
 }
-.footer {
-  background-color: #f8f8f8;
-  padding: 20px 0;
-  text-align: center;
-  font-size: 14px;
-  color: #555;
-  border-top: 1px solid #ddd;
-}
+
 
