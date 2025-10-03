@@ -1,0 +1,104 @@
+/* Contact.css */
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background: linear-gradient(135deg, #4a1e72, #8e4dff);
+  height: 100vh;
+  color: white;
+  margin-top: 5rem;
+}
+
+.left-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-section h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.left-section p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.left-section a {
+  color: #8e4dff;
+  text-decoration: none;
+}
+
+.right-section {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+textarea {
+  height: 150px;
+  resize: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.terms {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.terms a {
+  color: #8e4dff;
+}
+
+.submit-btn {
+  background-color: #8e4dff;
+  color: white;
+  padding: 12px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+  background-color: #6f38b8;
+}

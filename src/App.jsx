@@ -4,6 +4,7 @@ import "./App.css";
 import Footer from "./footer";
 import Technology from "./Technology";
 import Service from "./Service";
+import Contact from "./Contact";
 
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,7 +43,8 @@ export default function App() {
                     <li><a href="#overview">Overview</a></li>
                     <li><Link to="/technology">Technology</Link></li>
                     <li><a href="/service">Testimonials</a></li>
-                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#resources">About</a></li>
+                    <li><a href="/contact">Contact Us</a></li>
                   </ul>
 
                   <div className="nav-actions">
@@ -125,6 +127,7 @@ export default function App() {
         {/* Technology Page */}
         <Route path="/service" element={<Service />} /> 
         <Route path="/technology" element={<Technology />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );

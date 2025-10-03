@@ -4,23 +4,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #101010;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.service{
   height: 100vh;
-}
+  display: flex;
+  justify-content: left;
 
+  align-items: center;
+}
 .app-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  max-width: 1200px;
-  padding: 20px;
+  border: 2px solid #333;
 }
 
 /* Navbar Styles */
@@ -30,6 +25,7 @@ body {
   align-items: center;
   padding: 20px;
   background-color: #1a1a1a;
+  width: 100%;
 }
 
 .navbar .logo {
@@ -86,7 +82,11 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
 }
-
+.card :hover{
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease;
+}
 .card h3 {
   margin-top: 10px;
   font-size: 1.2rem;
@@ -113,7 +113,7 @@ body {
 
 .alert {
   background-color: #e57373;
-  color: #fff;
+  color: #000;
   padding: 10px;
   border-radius: 5px;
   font-size: 0.9rem;
@@ -137,3 +137,7 @@ body {
   font-size: 3rem;
   color: #64b5f6;
 }
+.card .alert p{
+  color: #000;
+}
+
