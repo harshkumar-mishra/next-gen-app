@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import "./App.css";
 import Footer from "./footer";
 import Technology from "./Technology";
+import Service from "./Service";
 
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,7 +41,7 @@ export default function App() {
                   <ul className="nav-links">
                     <li><a href="#overview">Overview</a></li>
                     <li><Link to="/technology">Technology</Link></li>
-                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="/service">Testimonials</a></li>
                     <li><a href="#resources">Resources</a></li>
                   </ul>
 
@@ -122,6 +123,7 @@ export default function App() {
         />
 
         {/* Technology Page */}
+        <Route path="/service" element={<Service />} /> 
         <Route path="/technology" element={<Technology />} />
       </Routes>
     </Router>

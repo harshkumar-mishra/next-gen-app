@@ -1,0 +1,139 @@
+/* General styles for the app */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #101010;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a1a1a;
+}
+
+.navbar .logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #00e676;
+}
+
+.navbar .logo .gen {
+  color: #00c853;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-actions button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #00c853;
+  color: white;
+}
+
+.start-btn {
+  background-color: #00e676;
+  color: white;
+}
+
+/* Card Styles */
+.card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.card h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #a1a1a1;
+}
+
+.icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.ai-icon {
+  color: #00e676;
+}
+
+.guarantee-icon {
+  color: #00c853;
+}
+
+.alert {
+  background-color: #e57373;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+}
+
+.alert span {
+  font-size: 0.8rem;
+}
+
+.speedometer p {
+  font-size: 2.5rem;
+  color: #00bfae;
+}
+
+.score p {
+  font-size: 2rem;
+  color: #80e0a7;
+}
+
+.shield-icon {
+  font-size: 3rem;
+  color: #64b5f6;
+}
