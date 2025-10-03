@@ -35,13 +35,13 @@ function Contact() {
         </div>
 
         <nav className="nav-right">
-          <ul className="nav-links">
-            <li><a href="#overview">Overview</a></li>
-            <li><Link to="/technology">Technology</Link></li>
-            <li><a href="#testimonials">Testimonials</a></li>
-            <li><a href="#resources">About</a></li>
-            <li><Link to="/contact">Contact Us</Link></li> {/* Use Link component for internal routing */}
-          </ul>
+         <ul className="nav-links">
+                             <li><Link to="/">Home</Link></li>
+                             <li><Link to="/technology">Technology</Link></li>
+                             <li><Link to="/service">Testimonials</Link></li>
+                             <li><Link to="/about">About</Link></li>
+                             <li><Link to="/contact">Contact Us</Link> </li>
+                             </ul>
 
           <div className="nav-actions">
             <button className="login-btn">Log In</button>

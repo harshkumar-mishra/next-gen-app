@@ -16,11 +16,12 @@ const App = () => {
 
           <nav className="nav-right">
             <ul className="nav-links">
-              <li><a href="#overview">Overview</a></li>
-              <li><Link to="/technology">Technology</Link></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-              <li><a href="#resources">Resources</a></li>
-            </ul>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/technology">Technology</Link></li>
+                                <li><Link to="/service">Testimonials</Link></li>
+                                <li><Link to="/about">About</Link></li>
+                                <li><Link to="/contact">Contact Us</Link> </li>
+                                </ul>
 
             <div className="nav-actions">
               <button className="login-btn">Log In</button>
