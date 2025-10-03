@@ -19,7 +19,10 @@ export default function Technology() {
             <li><Link to="/technology">Technology</Link></li>
             <li><a href="#testimonials">Testimonials</a></li>
             <li><a href="#resources">About</a></li>
-            <li><a href="#resources">Contact Us</a></li>
+
+            <li>
+              <Link to="/contact">Contact Us</Link>
+              </li>
           </ul>
 
           <div className="nav-actions">

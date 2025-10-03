@@ -44,7 +44,9 @@ export default function App() {
                     <li><Link to="/technology">Technology</Link></li>
                     <li><a href="/service">Testimonials</a></li>
                     <li><a href="#resources">About</a></li>
-                    <li><a href="/contact">Contact Us</a></li>
+                      <li>
+                                 <Link to="/contact">Contact Us</Link>
+                                 </li>
                   </ul>
 
                   <div className="nav-actions">
