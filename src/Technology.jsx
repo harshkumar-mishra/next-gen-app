@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Missing import
-import "./Technology.css"; // External CSS
+import "./App.css"; // External CSS
 import { Shield, Smartphone } from "lucide-react";
 import Footer from "./footer";
 

@@ -6,6 +6,7 @@ import Technology from "./Technology";
 import Service from "./Service";
 import Contact from "./Contact";
 import About from "./About";
+import Login from "./Login";
 
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -49,7 +50,8 @@ export default function App() {
                     </ul>
 
                   <div className="nav-actions">
-                    <button className="login-btn">Log In</button>
+                    <Link to="/login">
+                    <button className="login-btn">Log In</button></Link>
                     <button className="start-btn">Get Started</button>
                   </div>
                 </nav>
@@ -130,6 +132,7 @@ export default function App() {
         <Route path="/technology" element={<Technology />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Router>
   );

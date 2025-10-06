@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom'; // Ensure that Link is imported correctly
-import './Contact.css';
+import './App.css';
 import Footer from './footer'; // Ensure Footer is being correctly imported
 
 function Contact() {
@@ -50,7 +50,7 @@ function Contact() {
         </nav>
       </header>
 
-      <div className="container">
+      <div className="container-ch">
         {/* Left Section: Message */}
         <div className="left-section">
           <h1>Let’s Get In Touch.</h1>
