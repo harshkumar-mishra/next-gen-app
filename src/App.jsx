@@ -7,6 +7,7 @@ import Service from "./Service";
 import Contact from "./Contact";
 import About from "./About";
 import Login from "./Login";
+import Register from "./Register";  
 
 export default function App() {
   const [isVisible, setIsVisible] = useState(false);
@@ -63,7 +64,7 @@ export default function App() {
                   <div className="chip">EQT</div>
                   <h1>Verify to Trust AI</h1>
                   <p>Introducing Verifiable Compute. Ready for the Agentic AI Era.</p>
-                  <button className="demo-btn">Schedule Demo</button>
+                 <Link to="/register" ><button className="demo-btn">Schedule Demo</button></Link>
 
                   <div className="preorders">
                     <p>Preorders Q4 Ship 2025</p>
@@ -133,6 +134,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
     </Router>
   );

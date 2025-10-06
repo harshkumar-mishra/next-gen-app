@@ -4,6 +4,7 @@ import './App.css';
 import Footer from './footer';
 const App = () => {
   return (
+    <>
     <div className='service'>
 
 
@@ -79,12 +80,11 @@ const App = () => {
           <h3>Military-grade encryption</h3>
           <p>Your data is protected by technology that meets global security standards.</p>
         </div>
-         
+        
       </div>
-     
-     
     </div>
-     
+     <Footer />
+     </>
   );
 };
 

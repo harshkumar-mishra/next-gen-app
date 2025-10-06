@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom"; // Importing Link component
-import "./About.css";
+import "./App.css";
 import Footer from "./footer";
 
 function About() {
